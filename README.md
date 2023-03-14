@@ -17,6 +17,7 @@ https://github.com/NicksFed/Eau-Claires-Salon.git
 4. Add Entity Framework Core packages: $ dotnet add package Microsoft.EntityFrameworkCore -v 6.0.0 
                                        $ dotnet add package Pomelo.EntityFrameworkCore.MySql -v 6.0.0
 5. Create the file appsettings.json file in your project directory, configure it with the following code and input the database name for [databasename], your username for [username], and password for [password]
+6. In the production directory run dotnet watch run to use the application
 # Known bugs
 None
 # License information with copyright and date
